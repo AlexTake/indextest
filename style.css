@@ -78,3 +78,7 @@ select {
     padding: 1vh;
 
 }
+html, body {
+    --color-gray-1: #666666;
+    color: var(--tg-theme-bg-color)
+}
