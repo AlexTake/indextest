@@ -1,9 +1,4 @@
-const button = document.querySelector('button');
+function loadPage()
+{
 
-button.addEventListener('click', event => {
-    document.getElementById('id1').style.color = window.Telegram.WebApp.themeParams.bgColor;
-});
-
-button.addEventListener('click', event => {
-    document.getElementById('id2').style.color = 'red';
-});
+}
