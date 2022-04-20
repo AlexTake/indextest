@@ -28,7 +28,7 @@
     <button onclick="window.Telegram.WebApp.MainButton.setText('help')">222</button>
 
     <button onclick="window.Telegram.WebApp.MainButton.setText('pls')">123</button>
-    <button onclick="console.log(window.Telegram.WebApp.MainButton.get())">params111</button>
+    <button onclick="this.text= window.Telegram.WebApp.MainButton.get().toString()">params111</button>
     <button onclick="window.Telegram.WebApp.MainButton.setParams('555','#FF0000','#FFFFFF',true)">params1</button>
     <button onclick="window.Telegram.WebApp.MainButton.setParams('555','#FF0000','#FFFFFF')">params2</button>
     <button onclick="window.Telegram.WebApp.MainButton.setParams('555','#FF0000')">params3</button>
