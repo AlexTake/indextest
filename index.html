@@ -6,17 +6,14 @@
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script>window.Telegram.WebApp.MainButton.show()</script>
     <script>window.Telegram.WebApp.MainButton.setText('111')</script>
-    <script>window.Telegram.WebApp.MainButton.setParams('222','#FF0000')</script>
-    <script>window.Telegram.WebApp.MainButton.setParams('333','#FF0000','#FFFFFF')</script>
-    <script>window.Telegram.WebApp.MainButton.setParams('444','#FF0000','#FFFFFF',true)</script>
-    <script>window.Telegram.WebApp.MainButton.setParams('555','#FF0000','#FFFFFF',true,true)</script>
+
 
     <meta charset="UTF-8">
     <title>1232355</title>
 </head>
 <body style="overflow: hidden">
 <div class="button">
-<button>Новини</button>
+<button onclick="document.location='news.html'">Новини v1.0</button>
 <button>Купуй/Продай</button>
 <button>Нерухомість</button>
 <button>Попутник</button>
@@ -24,15 +21,6 @@
 <button>Подати об'яву</button>
 <button>Пошук по чату</button>
 
-
-    <button onclick="window.Telegram.WebApp.MainButton.setText('help')">222</button>
-
-    <button onclick="window.Telegram.WebApp.MainButton.setText('pls')">123</button>
-    <button onclick="this.text= window.Telegram.WebApp.MainButton.get().toString()">params111</button>
-    <button onclick="window.Telegram.WebApp.MainButton.setParams('555','#FF0000','#FFFFFF',true)">params1</button>
-    <button onclick="window.Telegram.WebApp.MainButton.setParams('555','#FF0000','#FFFFFF')">params2</button>
-    <button onclick="window.Telegram.WebApp.MainButton.setParams('555','#FF0000')">params3</button>
-    <button onclick="window.Telegram.WebApp.MainButton.setParams('555')">params4</button>
 
     </div>
 </body>
